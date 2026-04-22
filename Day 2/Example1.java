@@ -1,11 +1,9 @@
 class Employee {
     private String name;
     private double salary;
-
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
@@ -13,19 +11,17 @@ class Employee {
     public double getSalary() {
         return salary;
     }
-
     public void setSalary(double salary) {
-        if (salary > 0) {
+        if (salary!=0) {
             this.salary = salary;
         }
     }
 }
-
 public class Main {
     public static void main(String[] args) {
         Employee emp = new Employee();
-        emp.setName("Rahim");
-        emp.setSalary(50000);
+        emp.setName("azhar");
+        emp.setSalary(50);
 
         System.out.println(emp.getName() + " earns " + emp.getSalary());
     }
