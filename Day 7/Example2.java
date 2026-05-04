@@ -8,7 +8,7 @@ class Outer {
     }
 }
 
-public class Main {
+public class Example2{
     public static void main(String[] args) {
         Outer.Inner i = new Outer.Inner();
         i.show();
