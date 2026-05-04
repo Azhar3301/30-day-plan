@@ -10,7 +10,7 @@ class Car extends Vehicle {
     }
 }
 
-public class Main {
+public class Example2 {
     public static void main(String[] args) {
         Vehicle v = new Car();  // parent reference, child object
         v.move();               // calls Car's method
