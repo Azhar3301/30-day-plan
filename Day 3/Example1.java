@@ -12,7 +12,7 @@ class Student {
     void display() {
         System.out.println("Name: "+ name + ",Age: "+age);
     }
-    public static void main(String[] args) {
+    public static void Example1(String[] args) {
         Student s1=new Student();
         Student s2=new Student("rumi",18);
         s1.display();
